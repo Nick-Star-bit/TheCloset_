@@ -1,0 +1,20 @@
+EVIDENCIA: GA7-220501096-AA2-EV02
+MÓDULOS DE SOFTWARE CODIFICADOS Y PROBADOS
+
+Proyecto: The Closet (Backend - Node.js / Express / MySQL)
+Programa: Análisis y Desarrollo de Software (ADSO)
+Ficha: 3336195
+
+INTEGRANTES DEL EQUIPO DE TRABAJO:
+1. Nicolás Stiven Moreno López
+2. David Pinto
+3. Franki Jiménez
+
+ENLACE AL REPOSITORIO DE GITHUB:
+https://github.com/Nick-Star-bit/TheCloset
+
+DISTRIBUCIÓN DE MÓDULOS:
+- Módulo de Productos: Nicolás Moreno
+- Módulo de Usuarios: David Pinto
+- Módulo de Pedidos: Franki Jiménez
+- Módulo de Autenticación: Integración conjunta

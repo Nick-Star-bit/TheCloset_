@@ -1,20 +1,22 @@
-EVIDENCIA: GA7-220501096-AA2-EV02
-MÓDULOS DE SOFTWARE CODIFICADOS Y PROBADOS
+EVIDENCIA: GA7-220501096-AA3-EV01
+CODIFICACIÓN DE MÓDULOS DEL SOFTWARE STAND-ALONE, WEB Y MÓVIL
+PROGRAMA: TECNOLOGÍA EN ANÁLISIS Y DESARROLLO DE SOFTWARE (ADSO)
+FICHA: 3336195
+PROYECTO FORMATIVO: THE CLOSET SHOWROOM
 
-Proyecto: The Closet (Backend - Node.js / Express / MySQL)
-Programa: Análisis y Desarrollo de Software (ADSO)
-Ficha: 3336195
+INFORMACIÓN DEL EQUIPO DE DESARROLLO:
+- Nicolás Stiven Moreno López (Administrador: Nick-Star-bit)
+- David Pinto (Colaborador: davidsgames4804-collab)
+- Franki Jiménez Muñoz (Colaborador: frankijimu-oss)
 
-INTEGRANTES DEL EQUIPO DE TRABAJO:
-1. Nicolás Stiven Moreno López
-2. David Pinto
-3. Franki Jiménez
-
-ENLACE AL REPOSITORIO DE GITHUB:
+REPOSITORIO OFICIAL DEL PROYECTO (GITHUB):
 https://github.com/Nick-Star-bit/TheCloset
 
-DISTRIBUCIÓN DE MÓDULOS:
-- Módulo de Productos: Nicolás Moreno
-- Módulo de Usuarios: David Pinto
-- Módulo de Pedidos: Franki Jiménez
-- Módulo de Autenticación: Integración conjunta
+TECNOLOGÍAS Y ESTRUCTURA DEL MÓDULO:
+- Entorno de Ejecución: Node.js / Express.js (Backend API REST)
+- Base de Datos: MySQL (Driver mysql2/promise)
+- Módulos Codificados:
+  * /api/auth (Autenticación y Registro de usuarios)
+  * /api/productos (Gestión y catálogo de prendas de vestir)
+  * /api/usuarios (Módulo administrativo de perfiles)
+  * /api/pedidos (Historial y gestión de compras)

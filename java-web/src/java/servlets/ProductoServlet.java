@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet para procesar el registro de prendas en el proyecto The Closet Showroom.
- * Evidencia: GA7-220501096-AA2-EV02
  */
 @WebServlet("/ProductoServlet")
 public class ProductoServlet extends HttpServlet {

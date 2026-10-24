@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Closet Showroom - Registro Java Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f6f9; }
+        .container { max-width: 500px; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #2c3e50; text-align: center; }
+        label { font-weight: bold; display: block; margin-top: 15px; }
+        input, select, button { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #27ae60; color: white; border: none; font-weight: bold; margin-top: 20px; cursor: pointer; }
+        button:hover { background-color: #219150; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>The Closet Showroom</h2>
+        <p style="text-align:center; color: #7f8c8d;">Módulo Java Web (Servlets + JSP)</p>
+        <form action="ProductoServlet" method="POST">
+            <label for="nombre">Nombre de la Prenda:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Chaqueta Cuero Sintético" required>
+
+            <label for="categoria">Categoría:</label>
+            <select id="categoria" name="categoria">
+                <option value="Chaquetas">Chaquetas</option>
+                <option value="Pantalones">Pantalones</option>
+                <option value="Camisetas">Camisetas</option>
+                <option value="Calzado">Calzado</option>
+                <option value="Accesorios">Accesorios</option>
+            </select>
+
+            <label for="precio">Precio ($):</label>
+            <input type="number" id="precio" name="precio" placeholder="Ej. 120000" required>
+
+            <button type="submit">Registrar Prenda</button>
+        </form>
+    </div>
+</body>
+</html>
